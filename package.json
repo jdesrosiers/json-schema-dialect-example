@@ -1,0 +1,27 @@
+{
+  "name": "json-schema-dialect-example",
+  "version": "1.0.0",
+  "description": "An example dialect for @hyperjump/json-schema",
+  "license": "MIT",
+  "author": "Jason Desrosiers <jdesrosi@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdesrosiers/json-schema-dialect-example.git"
+  },
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "lint": "oxlint",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "oxlint": "^1.60.0"
+  },
+  "peerDependencies": {
+    "@hyperjump/json-schema": "^1.17.5"
+  }
+}
